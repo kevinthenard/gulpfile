@@ -1,0 +1,30 @@
+{
+  "name": "Gulp",
+  "version": "1.0.0",
+  "description": "https://github.com/kevinthenard/gulpfile",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kévin Thenard",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "devDependencies": {
+    "gulp-jshint": "~2.0.0",
+    "jshint": "~2.9.1",
+    "gulp-jshint-file-reporter": "0.0.2"
+  }
+}
